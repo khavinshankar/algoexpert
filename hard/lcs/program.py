@@ -1,3 +1,4 @@
+# time = O(nm) and space = O(nm)
 def longestCommonSubsequence(str1, str2):
     m = len(str1)
     n = len(str2)
