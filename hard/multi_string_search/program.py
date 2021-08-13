@@ -1,3 +1,4 @@
+# time = O(wm + sm) and space = O(wm) => w = len(words) | m = max(len(word)) | s = len(string)
 def multiStringSearch(string, words):
     trie = Trie()
     for word in words:
