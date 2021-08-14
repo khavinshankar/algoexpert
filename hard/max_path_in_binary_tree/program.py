@@ -1,3 +1,4 @@
+# time = O(n) and space = O(log(n)) => n = num_nodes(tree)
 def maxPathSum(tree):
     return maxPathSumHelper(tree)[1]
 
